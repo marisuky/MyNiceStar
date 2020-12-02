@@ -39,7 +39,6 @@ public class MainActivity extends AppCompatActivity {
                 .centerCrop()
                 .transition(DrawableTransitionOptions.withCrossFade(500))
                 .placeholder(new ColorDrawable(this.getResources().getColor(R.color.colorAccent)))
-
                 .circleCrop()
                 .into(fondo);
     }
