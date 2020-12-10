@@ -43,15 +43,15 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="163dp"
-        android:layout_height="42dp"
-        android:layout_marginTop="72dp"
+        android:layout_width="217dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="32dp"
         android:alpha="0.8"
         android:fontFamily="cursive"
         android:text="who dont't jump will never fly"
         android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 

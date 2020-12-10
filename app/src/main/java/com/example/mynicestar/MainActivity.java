@@ -38,8 +38,9 @@ public class MainActivity extends AppCompatActivity {
                 .load(R.drawable.imagyo)
                 .centerCrop()
                 .transition(DrawableTransitionOptions.withCrossFade(500))
-                .placeholder(new ColorDrawable(this.getResources().getColor(R.color.colorAccent)))
+                .placeholder(new ColorDrawable(this.getResources().getColor(R.color.colorAccent2)))
                 .circleCrop()
                 .into(fondo);
+
     }
 }

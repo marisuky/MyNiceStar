@@ -8,6 +8,7 @@ import android.os.Handler;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
@@ -24,17 +25,19 @@ public class SplashScreen extends Activity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.splash_creen);
 
-       ImageView imageView = (ImageView) findViewById(R.id.carret);
+
+
+       TextView textView = (TextView) findViewById(R.id.textView2);
        Animation myanim = AnimationUtils.loadAnimation(this,R.anim.alpha);
-       imageView.startAnimation(myanim);
+       textView.startAnimation(myanim);
+
 
        ImageView fondo = findViewById(R.id.carret);
        Glide.with(this)
                .load(R.drawable.carretera)
                .centerCrop()
                .transition(DrawableTransitionOptions.withCrossFade(500))
-               .placeholder(new ColorDrawable(this.getResources().getColor(R.color.colorAccent)))
-
+               .placeholder(new ColorDrawable(this.getResources().getColor(R.color.colorPrimary)))
                .into(fondo);
 
 
