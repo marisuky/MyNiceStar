@@ -7,7 +7,7 @@ Splash                    | Login|Register
 
 Main|Main2
 --------|------------
-![](doc/img/MainC.PNG)|![](doc/img/Main2C.PNG)
+![](doc/img/MainN.PNG)|![](doc/img/MainN.PNG)
 
 
 
